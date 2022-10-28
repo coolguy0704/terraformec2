@@ -35,7 +35,7 @@ resource "aws_security_group" "dynamic_sg" {
 
 resource "aws_key_pair" "test_keypair" {
     key_name = "test_keypair"
-    public_key = file("/Users/prakashraobethapudi/Desktop/github/key_pair.pem.pub")
+    public_key = file("FILE LOCATION")
 }
 
 resource "aws_instance" "myec2" {
